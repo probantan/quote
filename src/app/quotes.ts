@@ -1,3 +1,7 @@
 export class Quotes {
-    constructor( public id:number, public name:string){}
+   
+    constructor( public Author:string,  public Quotes:string, public Date:number){
+      
+} 
+
 }

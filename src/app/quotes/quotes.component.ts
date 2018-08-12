@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Quotes} from '../quotes';
 
 @Component({
   selector: 'app-quotes',
@@ -11,5 +12,15 @@ export class QuotesComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  addQuote(Quote){
+    let QuoteLength = this.addQuote.length;
+    Quote.id=QuoteLength+1;
+   
+    this.addQuote.push(Quotes);
 
 }
+ 
+  }
+
+

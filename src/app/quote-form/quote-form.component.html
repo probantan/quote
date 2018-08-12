@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <form (ngSubmit)='submitQuote'#userForm="ngForm">
+        <!-- Name Form -->
+            <div class="form-group">
+                <label>Author</label>
+                <input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" name="name" class="form-control"  [(ngModel)]="userModel.name">
+            </div>  
+            <small class="text-danger" [class.d-none]="name.valid || name.untouched">Name is require</small>
+            <!-- Description Input -->
+            <div class="form-group">
+                    <label>Quote</label>
+                <textarea class="form-control" required #quote="ngModel"[class.is-invalid]="quote.invalid && quote.touched" rows="4" name="quote"[(ngModel)]="userModel.quote"></textarea>
+            </div>
+            <small class="text-danger" [class.d-none]="quote.valid || name.untouched">Quote required</small>
+            <!-- Date Input -->
+            <div class="form-group">
+                <label>Date</label> 
+                <input type='date' required #date="ngModel" [class.is-invalid]="date.invalid && date.touched"class="form-control" name="date" [(ngModel)]="userModel.date">
+            </div>
+            <small class="text-danger" [class.d-none]="date.valid || date.untouched">Date is required</small>
+            <div>
+            <button  class="btn btn-primary" type="Submit">Add Quote</button>
+        </div>
+        </form>
+        
+    </div>
+ 
