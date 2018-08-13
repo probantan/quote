@@ -1,8 +1,8 @@
 
-#Author
+## Author
 Protus Bantan
-#
-# Quotes
+
+## Quotes and Description
 
 This project was generated with [Angular CLI](https://probantan.github.io/quote/) version 6.1.2.
 It is an application where the user can read quotes, delete and even like or dislike the quotes. The user can still go ahead and create their own quote if need be..And those quote can be voted.
