@@ -8,18 +8,19 @@ import {Quotes} from '../quotes';
 })
 export class QuotesComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
   
-  addQuote(Quote){
-    let QuoteLength = this.addQuote.length;
+  addNewQuotes(Quote){
+    let QuoteLength = this.addNewQuotes.length;
     Quote.id=QuoteLength+1;
    
    
 
 }
+constructor() { }
+
+  ngOnInit() {
+  }
+  
  
   }
 

@@ -1,10 +1,8 @@
 <div style="text-align:center">
     
-    <H1>Quote RooM</H1>
-
-    <app-quote-form></app-quote-form>
+    <h1>Quote RooM</h1>
   <h1>
-   {{ titl }}
+  
 </h1>
   
 </div>
@@ -13,15 +11,18 @@
 
 <ul>
   <li>
-      “You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way.” —Walter Hagen    </li>
+      <hr>
+      “You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way.” <em>—Walter Hagen</em>    </li>
   
   
   <li>
-      “I think being in love with life is a key to eternal youth.” —Doug Hutchison
+        <hr>
+      “I think being in love with life is a key to eternal youth.”<em> —Doug Hutchison</em>
   </li>
 
   <li>
-      “However difficult life may seem, there is always something you can do and succeed at.” —Stephen Hawking
+        <hr>
+      “However difficult life may seem, there is always something you can do and succeed at.” <em>-Stephen Hawking</em>
   </li>
 
       <li>
@@ -33,3 +34,4 @@
 
 
 </div>
+<app-quote-form (createQuote)="addNewQuotes($event)"></app-quote-form>
