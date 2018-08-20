@@ -7,31 +7,20 @@
   
 </div>
 <div class="container">
-<h2>Quotes</h2>
+
 
 <ul>
-  <li>
-      <hr>
-      “You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way.” <em>—Walter Hagen</em>    </li>
-  
-  
-  <li>
-        <hr>
-      “I think being in love with life is a key to eternal youth.”<em> —Doug Hutchison</em>
-  </li>
-
-  <li>
-        <hr>
-      “However difficult life may seem, there is always something you can do and succeed at.” <em>-Stephen Hawking</em>
-  </li>
-
-      <li>
-  
-                              <a href="https://www.success.com/17-quotes-about-living-a-beautiful-life/" target="_blank" style="color: blue">Read more</a>
-
-                                      
+ 
+    <div *ngFor='let quote of quotes;let i= index'>
+       <li><em>Quote:</em> {{quote.quote}}</li>
+       <li class="de">Written By:{{quote.author}}</li>
+       <li class="de">Submitted By: Protus Oduor</li>
+    <app-quote-details [quote]='quote'(complete)='deleteQuote($event,i)'></app-quote-details>                    
+</div>                                
 </ul>
 
 
 </div>
-<app-quote-form (createQuote)="addNewQuotes($event)"></app-quote-form>
+<app-quote-form (createQuote)="addNewQuote($event)"></app-quote-form>
+
+
