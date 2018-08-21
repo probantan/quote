@@ -7,6 +7,8 @@ Protus Bantan
 
 To view my application live visit this link https://probantan.github.io/quote/
 
+## Installation
+For the App to work then you have to install Node ang Angular on yiur machine...When all is done, you can clone the application by running  git@github.com:probantan/quote.git on the terminal to your local maching..to run the app on your browser just run ng -serve on the commandline
 ## Project Decription
 
 It is an application where the user can read quotes, delete and even like or dislike the quotes. The user can still go ahead and create their own quote if need be..And those quote can be voted.
