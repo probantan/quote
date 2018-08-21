@@ -23,27 +23,21 @@ Users can also add and delete quotes - this feature will much effective once a l
  The refresh button updates all the quotes after user adds a new one and also updates quote of the day to the current one.
 
 
-## Development server
+## Technology used
+
+
+Angular framework has been used in the development of this project and the languages used include
+
+   TypeScript  used for  functionality of the app
+
+   CSS is used for styling the app
+
+   Html Markup and has been used to  structure  the the app
+
+   bootstrap css framework has been used for the styling as well
 
 
 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
