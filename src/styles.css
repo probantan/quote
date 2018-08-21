@@ -1,74 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    
-    background-color:rgba(0, 26, 255, 0.11)
 
-}
-h1{
-    background:black;
-    color: white;
-    width: 300px;
-    font-style: italic;
-    position: relative;
-    left: 600px
-    
-    
-    
-    
-    
-}
-li{
-    background-color: green;
-    position: relative;
-   
-    
-    line-height: 29px;
-   
-    height: 60px;
-    font-size: 25px;
-    color: black;
-    margin-left: -40px;
-    margin-top: auto;
-    padding-top: 5px;
-    padding: 10px;
-    list-style: none
-    
-    
+body {
+  background-color: rgba(0, 26, 255, 0.11)
 }
 
-.de{
-    font-style: italic;
-    text-align: center;
-    color:pink;
-    line-height: 50px;
+h1 {
+  background: black;
+  color: white;
+  width: 300px;
+  font-style: italic;
+  position: relative;
+  left: 600px
+}
 
-    
+li {
+  background-color: green;
+  position: relative;
+  line-height: 29px;
+  height: 70px;
+  font-size: 25px;
+  color: black;
+  margin-left: -40px;
+  margin-top: auto;
+  padding-top: 5px;
+  padding: 10px;
+  list-style: none
 }
-  
-   em{
-       color:gainsboro;
-   } 
-    
 
-.form-group{
-border-radius: 10px;
-    width: 400px;
-    
-    
+.de {
+  font-style: italic;
+  text-align: center;
+  color: pink;
+  line-height: 50px;
 }
-h2{
-    font-style: italic;
-    position: relative;
-   bottom: 5px;
-    margin-top: 0px;
-    color: black
-    
+
+em {
+  color: gainsboro;
 }
+
+.form-group {
+  border-radius: 10px;
+  width: 400px;
+}
+
+h2 {
+  font-style: italic;
+  position: relative;
+  bottom: 5px;
+  margin-top: 0px;
+  color: black
+}
+
 .btn-danger{
-    position: absolute;
-   left: 250px;
-   bottom:  2px;
+    position: relative;
+    left: 200px;
     
-    
-   
 }
+
+.btn-warning{
+    position: relative;
+    top: 20px;
+}
+.btn-success{
+    position: absolute;
+   top: 10px
+    
+}
+
+
+
+    

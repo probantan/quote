@@ -1,8 +1,9 @@
-<p>{{quote.description}}</p>
+
+
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <button class="btn btn-success" name="up" (click)="upVote()">Like{{quote.upVotes}}</button>
+      <button class="btn btn-success" name="up" (click)="upVote()" >Like{{quote.upVotes}}</button>
     </div>
     <div class="col-md-6">
       <button class="btn btn-warning" name="down" (click)="downVote()">Dislike{{quote.downVotes}}</button>
