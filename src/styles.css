@@ -25,7 +25,7 @@ li{
     line-height: 29px;
    
     height: 60px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     margin-left: -40px;
     margin-top: auto;
@@ -39,12 +39,15 @@ li{
 .de{
     font-style: italic;
     text-align: center;
-    color: pink;
+    color:pink;
     line-height: 50px;
+
     
 }
   
-    
+   em{
+       color:gainsboro;
+   } 
     
 
 .form-group{
@@ -63,8 +66,8 @@ h2{
 }
 .btn-danger{
     position: absolute;
-   left: 200px;
-   top: 10px;
+   left: 250px;
+   bottom:  2px;
     
     
    

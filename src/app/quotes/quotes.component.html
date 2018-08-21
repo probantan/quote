@@ -1,26 +1,25 @@
 <div style="text-align:center">
-    
-    <h1>Quote RooM</h1>
+
+  <h1>Quote RooM</h1>
   <h1>
-  
-</h1>
-  
+
+  </h1>
+
 </div>
 <div class="container">
 
 
-<ul>
- 
+  <ul>
+
     <div *ngFor='let quote of quotes;let i= index'>
-       <li><em>Quote:</em> {{quote.quote}}</li>
-       <li class="de">Written By:{{quote.author}}</li>
-       <li class="de">Submitted By: Protus Oduor</li>
-    <app-quote-details [quote]='quote'(complete)='deleteQuote($event,i)'></app-quote-details>                    
-</div>                                
-</ul>
+      <li>
+        <em>Quote:</em> {{quote.quote}}</li>
+      <li class="de">Written By: {{quote.author}}</li>
+      <li class="de">Submitted On:  {{quote.Date}} </li>
+      <app-quote-details [quote]='quote' (complete)='deleteQuote($event,i)'></app-quote-details>
+    </div>
+  </ul>
 
 
 </div>
 <app-quote-form (createQuote)="addNewQuote($event)"></app-quote-form>
-
-

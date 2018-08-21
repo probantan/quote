@@ -7,9 +7,9 @@
           <strong>Author</strong>
         </label>
 
-        <input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" name="name" class="form-control"
-          [(ngModel)]="quotes.name" placeholder="Enter your name">
-        <small class="text-danger" [class.d-none]="name.valid || name.untouched">Name is require</small>
+        <input type="text" required #author="ngModel" [class.is-invalid]="author.invalid && author.touched" name="author" class="form-control"
+          [(ngModel)]="userAuthor" placeholder="Enter your name">
+        <small class="text-danger" [class.d-none]="author.valid || author.untouched">Name is require</small>
 
       </div>
 
@@ -18,20 +18,22 @@
           <strong>Quote</strong>
         </label>
         <textarea class="form-control" required #quote="ngModel" [class.is-invalid]="quote.invalid && quote.touched" rows="4" name="Quote"
-          [(ngModel)]="quotes.quote"></textarea>
+          [(ngModel)]="userQuote"></textarea>
+        <small class="text-danger" [class.d-none]="quote.valid || quote.untouched">Quote required</small>
+
       </div>
-      <small class="text-danger" [class.d-none]="quote.valid || quote.untouched">Quote required</small>
       <!-- Date Input -->
       <div class="form-group">
         <label>
           <strong>Date</strong>
         </label>
         <input type='Date' required #Date="ngModel" [class.is-invalid]="Date.invalid && Date.touched" class="form-control" name="Date"
-          [(ngModel)]="quotes.Date">
+          [(ngModel)]="userDate">
+        <small class="text-danger" [class.d-none]="Date.valid || Date.untouched">Date is required</small>
+
       </div>
-      <small class="text-danger" [class.d-none]="Date.valid || Date.untouched">Date is required</small>
       <div>
-        <button class="btn btn-primary" on-click="test()" type="Submit">submit</button>
+        <button class="btn btn-primary" type="Submit">submit</button>
       </div>
     </form>
   </div>
