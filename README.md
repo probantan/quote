@@ -39,4 +39,4 @@ bootstrap css framework has been used for the styling as well
 
 ### License
 
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {2018} **{Moringa School}**
