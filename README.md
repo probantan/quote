@@ -25,7 +25,7 @@ Users should click on the add new quote to get rid of any input before adding a 
 
 The refresh button updates all the quotes after user adds a new one and also updates quote of the day to the current one.
 
-## Technology used
+## Technology
 
 Angular framework has been used in the development of this project and the languages used include
 
